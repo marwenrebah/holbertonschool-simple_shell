@@ -1,28 +1,14 @@
 #include "shell.h"
 /**
- * print_environment - Prints the environment variables.
+ * _env - Prints the environment variables.
  */
-void print_environment(void)
+void _env(void)
 {
-char **env_var = environ;
-for (; *env_var; env_var++)
+int i = 0;
+while (environ[i] != NULL)
 {
-printf("%s\n", *env_var);
+printf("%s\n", environ[i]);
+i++;
 }
 }
-/**
- * if_conditions - Checks for built-in commands and takes appropriate actions.
- * @cmd: The command tokens.
- * @line: The input line.
- */
-void if_conditions(char **cmd, char *line)
-{
-if (strcmp(cmd[0], "exit") == 0)
-{
-free(line);
-if (cmd[1])
-exit(atoi(cmd[1]));
-free_array(cmd);
-exit(0);
-}
-}
+
