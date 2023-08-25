@@ -1,36 +1,38 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <string.h>
-#include <errno.h>
 #include <sys/wait.h>
-#include <sys/stat.h>
 #include <sys/types.h>
-
-#define TOK_DELIM " \t\n" /*Define delimiter characters for tokenization*/
-#define SIZE 64
+#include <sys/stat.h>
 
 extern char **environ;
 
-char *read_line(void);
-/**Function to read a line from stdin*/
+/*str_split - Splits a line of string into an array of strings.*/
+char **str_split(char *line, char *delim);
 
-char **parse_the_line(char *, const char *);
-/*Function to parse input into tokens*/
+/*free_array - Frees a dynamically allocated array of strings*/
+void free_array(char **array);
 
-int execute_line(char **, char *);
-/*Function to execute a command*/
+/*loop - The main loop for the shell's Read-Evaluate-Print Loop*/
+void loop(int input);
 
-void _env(void);
-/*Function to print environment variables*/
+/*get_path - Retrieves the executable path for a command.*/
+void get_path(char **cmd);
 
-char *check_path(char *);
-/*Function to check the path of a command*/
+/*exec_command - Executes a command.*/
+void exec_command(char **cmd);
 
-void free_d_p(char **);
-/*Function to free a double pointer*/
+/*print_environment - Prints environment variables.*/
+void print_environment(void);
+
+/*sigintHandler - Handles the Control-C signal.*/
+void sigintHandler(int sig_num);
+
+/*if_conditions - Tests for built-in commands.*/
+void if_conditions(char **cmd, char *line);
 
 #endif
