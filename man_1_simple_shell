@@ -1,41 +1,52 @@
-.TH HSH 1
+.TH SHELL 1 "August 2023" "Holberton Simple Shell Project"
+
 .SH NAME
-hsh \- Holberton Shell	
+shell \- Holberton Simple Shell
+
 .SH SYNOPSIS
-.B hsh
-[command] [options ...]
-.SH COPYRIGHT
-hsh \- Holberton School's introductory shell project.
+.B shell
+[\fIfilename\fR]
+
 .SH DESCRIPTION
-.B hsh
-is a command interpreter that executes commands from the standard input or files.
-Designed as a clone of the standard Unix-like shell.
-.SH OPTIONS
-A simple command consists of optional variable assignments followed by space-separated words and redirections, terminated by a control operator. The first word specifies the command to be executed (argument zero), while the remaining words are passed as arguments to the command.
+The \fBshell\fR program is a basic command-line interpreter that emulates fundamental functionalities of a Unix shell. It reads and executes basic commands from user input.
+
+.SH FUNCTIONS
+.TP
+\fBvoid free_array(char **array)\fR
+Frees a dynamically allocated array of strings.
+
+.TP
+\fBvoid loop(int input)\fR
+Implements the Read-Eval-Print Loop (REPL) of the shell.
+
+.TP
+\fBint main(void)\fR
+The entry point of the shell.
+
+.SH USER INPUT
+Upon receiving user input and pressing "Enter," the shell performs the following actions:
+
+1. If in interactive mode, displays the shell prompt ("$ ").
+2. Reads a line of input from the user.
+3. If the input line is empty or consists of only whitespace characters, goes back to step 1.
+4. Tokenizes the input line into an array of words.
+5. Calls \fBif_conditions\fR to handle special conditions.
+6. If the first word of the command is "env," calls \fBprint_environment\fR and continues to step 1.
+7. Checks if the entered command exists in the system's PATH. If not, attempts to execute from a custom path.
+8. If the command is not found, displays an error message and goes back to step 1.
+9. Executes the identified command.
+10. Frees allocated memory and goes back to step 1.
+
+.SH SEE ALSO
 .PP
-The return value of a simple command is its exit status. If the command is terminated by signal n, the return value is 128+n.
-.SS
-Pipelines
-A pipeline is a sequence of one or more commands separated by the control operators | or |&. The format for a pipeline is:
-.PP
-[command [..ARGS]] [| - |&] [command2 [..ARGS]]
-.PP
-The standard output of "command" is connected via a pipe to the standard input of "command2". This connection is established before any specified redirections (see REDIRECTION below). If |& is used, the standard error of "command" is also connected to the standard input of "command2" through the pipe; it's a shorthand for 2>&1 |. This implicit redirection of standard error to standard output is performed after any specified redirections.
-.SS Lists
-A list is a sequence of one or more pipelines separated by operators ;, &, &&, or ||, optionally terminated by ;, &, or <newline>. Operators && and || have equal precedence, followed by ; and &, which also have equal precedence. One or more newlines can appear in a list to delimit commands.
-.PP
-If a command is terminated by the control operator &, the shell executes it in the background within a subshell. The shell doesn't wait for the command to finish, and the return status is 0. Commands separated by ; are executed sequentially; the shell waits for each command to terminate. The return status is the exit status of the last command executed.
-AND and OR lists are sequences of one or more pipelines separated by the && and || control operators, respectively. They're executed with left associativity. An AND list has the form:
-.PP
-command1 && command2
-.PP
-command2 is executed if and only if command1 returns an exit status of zero.
-.PP
-An OR list has the form:
-.PP
-command1 || command2
-.PP
-command2 is executed if and only if command1 returns a non-zero exit status. The return status of AND and OR lists is the exit status of the last command executed in the list.
+\fBstr_split\fR(3), \fBif_conditions\fR(3), \fBprint_environment\fR(3), \fBget_path\fR(3), \fBexec_command\fR(3)
+
+.SH AUTHOR
+This version of the Holberton Simple Shell (shell) was developed by [Ezzehi Nour].
+
+.SH BUGS
+This version of the shell does not provide definitions for the \fBstr_split\fR, \fBif_conditions\fR, \fBprint_environment\fR, \fBget_path\fR, and \fBexec_command\fR functions. Please refer to the complete implementation for their usage and functionality.
+
 .SH AUTHORS
 Marwen Rebah \- Holberton School student.
 .SH VERSIONS
