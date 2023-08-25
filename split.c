@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * str_split - function that splits a line into an array of strings.
- * @line: the line to be split.
- * @delim: the delimiter to use for splitting.
- * Return: an array of split elements.
+ * str_split - Splits a line of string into an array of strings.
+ * @line: Line to be parsed.
+ * @delim: Delimiter to parse with.
+ * Return: Array of parsed elements.
  */
 char **str_split(char *line, char *delim)
 {
@@ -12,11 +12,13 @@ size_t i = 0;
 ptr = strtok(line, delim);
 while (ptr)
 {
-cmd = realloc(cmd, ((i + 1) * sizeof(char *)));
+/*Allocate memory for the array and duplicate the token*/
+ cmd = realloc(cmd, ((i + 1) * sizeof(char *)));
 cmd[i] = strdup(ptr);
 ptr = strtok(NULL, delim);
 i++;
 }
+/*Allocate memory for the NULL-terminator*/
 cmd = realloc(cmd, ((i + 1) * sizeof(char *)));
 cmd[i] = NULL;
 return (cmd);
