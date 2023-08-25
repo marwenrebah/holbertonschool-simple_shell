@@ -1,40 +1,27 @@
 #include "shell.h"
 /**
- * exec_command - Execute a command.
- * @cmd: The command to be executed.
+ * execute_line - Execute a command using the execve function.
+ * @tokens: The array of command and arguments to execute.
+ * @path: The full path to the executable command.
+ * Return: The exit status of the executed command.
  */
-void exec_command(char **cmd)
+int execute_line(char **tokens, char *path)
 {
-pid_t pid = 0;
 int status = 0;
-if (!cmd)
-return;
+pid_t pid;
 pid = fork();
-if (pid == -1)
+if (pid == 0)
 {
-perror("Error in Fork");
-}
-else if (pid > 0)
-{
-waitpid(pid, &status, 0);
+/*Execute the command using the specified path and arguments*/
+execve(path, tokens, environ);
+perror("Execution failed");
+exit(EXIT_FAILURE);
 }
 else
 {
-if (execvp(cmd[0], cmd) == -1)
-{
-perror(cmd[0]);
-exit(EXIT_FAILURE);
+wait(&status);
+if (WIFEXITED(status))
+status = WEXITSTATUS(status);
 }
+return (status);
 }
-}
-/**
- * sigintHandler - Handle the Control-C signal.
- * @sig_num: The signal number.
- */
-void sigintHandler(__attribute__((unused)) int sig_num)
-{
-signal(SIGINT, sigintHandler);
-printf("\n");
-write(STDOUT_FILENO, "$ ", 2);
-}
-
