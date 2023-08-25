@@ -1,23 +1,36 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef HEADER_H
+#define HEADER_H
 
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
+#include <errno.h>
 #include <sys/wait.h>
-#include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/types.h>
+
+#define TOK_DELIM " \t\n" /*Define delimiter characters for tokenization*/
+#define SIZE 64
 
 extern char **environ;
 
-char **str_split(char *line, char *delim);
-void free_array(char **array);
-void loop(int input);
-void get_path(char **cmd);
-void exec_command(char **cmd);
-void print_environment(void);
-void sigintHandler(int sig_num);
-void if_conditions(char **cmd, char *line);
+char *read_line(void);
+/**Function to read a line from stdin*/
+
+char **parse_the_line(char *, const char *);
+/*Function to parse input into tokens*/
+
+int execute_line(char **, char *);
+/*Function to execute a command*/
+
+void _env(void);
+/*Function to print environment variables*/
+
+char *check_path(char *);
+/*Function to check the path of a command*/
+
+void free_d_p(char **);
+/*Function to free a double pointer*/
 
 #endif
