@@ -12,8 +12,7 @@ size_t i = 0;
 ptr = strtok(line, delim);
 while (ptr)
 {
-/*Allocate memory for the array and duplicate the token*/
- cmd = realloc(cmd, ((i + 1) * sizeof(char *)));
+cmd = realloc(cmd, ((i + 1) * sizeof(char *)));
 cmd[i] = strdup(ptr);
 ptr = strtok(NULL, delim);
 i++;
