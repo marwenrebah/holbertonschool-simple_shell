@@ -1,47 +1,30 @@
 #include "shell.h"
 /**
- * check_path - Check if the command exists in the system's PATH directories.
- * @command: The command to check.
- * Return: The full path of the command if found, or NULL if not found.
+ * get_path - Retrieves the full path of an executable command.
+ * @cmd: The command line entered by the user.
  */
-char *check_path(char *command)
+void get_path(char **cmd)
 {
-char *array[1000], *path = strdup(getenv("PATH"));
-char *path_token = strtok(path, ":");
-int i = 0;
-char *final_path;
-struct stat info;
-/*  If the command is found in the current directory. */
-if (stat(command, &info) == 0)
-{
-strcpy(path, command);
-return (path);
-}
-final_path = (char *)malloc(1024 * sizeof(char));
-/*Loop through each directory in the PATH*/
-while (path_token != NULL)
-{
-array[i] = path_token;
-i++;
-path_token = strtok(NULL, ":");
-}
-i = 0;
-/* Search for the command in each directory. */
-while (array[i] != NULL)
-{
-strcpy(final_path, array[i]);
-strcat(final_path, "/");
-strcat(final_path, command);
-strcat(final_path, "\0");
-/* If the command is found in the directory. */
-if (stat(final_path, &info) == 0)
-{
+int i;
+char **tok = NULL, *path = strdup(getenv("PATAH")), *tmp = NULL;
+/*Split the PATH variable into individual directories*/
+tok = str_split(path, ":");
 free(path);
-return (final_path);
+path = NULL;
+for (i = 0; tok[i]; i++)
+{
+/*Construct the potential full path of the command*/
+tmp = calloc(sizeof(char), (strlen(tok[i]) + 1 + strlen(cmd[0]) + 1));
+strcat(tmp, tok[i]);
+strcat(tmp, "/");
+strcat(tmp, cmd[0]);
+/*Check if the constructed path points to an existing command*/
+if (access(tmp, F_OK) == 0)
+break;
+free(tmp);
+tmp = NULL;
 }
-i++;
-}
-free(final_path);
-free(path);
-return (NULL);
+free_array(tok);
+free(cmd[0]);
+cmd[0] = tmp;
 }
