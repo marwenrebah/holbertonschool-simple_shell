@@ -138,5 +138,10 @@ $
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="Unix Shell" width="40" height="40"/> 
         </a> 
     </p>
+<h2 align="center">Ken Thompson:</h2>
+ p align="center"> 
+        <a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="noreferrer">
+            <img src="https://cdn.facesofopensource.com/wp-content/uploads/2022/05/10133823/KenThompson20516-1.web_-scaled.jpg" alt="Ken Thompson" width="40" height="40"/> 
+        </a> 
 </body>
 </html>
