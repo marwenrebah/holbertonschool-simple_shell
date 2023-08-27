@@ -106,9 +106,9 @@ $
 ```
 <h1>License 👥</h1>
 Authors :
-🚀 Marwen Rebah
-📧 Email: 6863@holbertonstudents.com
-👻 Github: https://github.com/marwenrebah
+🚀 Marwen Rebah<br>
+📧 Email: 6863@holbertonstudents.com<br>
+👻 Github: https://github.com/marwenrebah<br>
 
 <h2 align="center">Resources:</h2>
 <p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer"> <img src="https://icons8.com/icon/10250/console" alt="Unix" width="40" height="40"/> </a> </p>
