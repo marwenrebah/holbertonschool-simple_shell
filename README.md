@@ -4,11 +4,11 @@
 <h1>📋 Description:</h1>
 <p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
 
-<h1>Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
-1- Print Prompt: The cycle begins by displaying a user-friendly prompt, prompting command input and initiating system interaction.
-2-Read and Parse: The shell reads user input, then meticulously analyzes and interprets command components to grasp its intention.
-3-Execute: Guided by clarity, the shell executes the parsed command, instructing the system, effecting actions, and potentially invoking external processes.
-4-Repeat and Prompt: Post-execution, the shell reverts to its receptive state, displaying the prompt anew. This seamless flow enables uninterrupted command submission.
+<h1>⚙️ Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
+1- Print Prompt: The cycle begins by displaying a user-friendly prompt, prompting command input and initiating system interaction.<br>
+2-Read and Parse: The shell reads user input, then meticulously analyzes and interprets command components to grasp its intention.<br>
+3-Execute: Guided by clarity, the shell executes the parsed command, instructing the system, effecting actions, and potentially invoking external processes.<br>
+4-Repeat and Prompt: Post-execution, the shell reverts to its receptive state, displaying the prompt anew. This seamless flow enables uninterrupted command submission.<br>
 
 <h1>🛠️ Simple Shell:</h1>
 Prompts appear after each command execution.
@@ -29,7 +29,7 @@ Program stops via CTRL + D shortcut.
 | AUTHORS  | List of authors of the program.        |
 | execute.c  | A function that executes a command line.        |
 
-<h1>Allowed Functions and System Calls:</h1>
+<h1>✔️ Allowed Functions and System Calls:</h1>
 * access (man 2 access)
 * chdir (man 2 chdir)
 * close (man 2 close)
@@ -64,22 +64,25 @@ Program stops via CTRL + D shortcut.
 <h1>🔭 Compilation and Testing::</h1>
 Use our compiler to build the shell:
 
+```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
 
 Testing:
 
 Interactive Mode:
-
+```
 $ ./hsh
 ($) /bin/ls
 hsh main.c shell.c
 ($)
 ($) exit
 $
-
+```
 
 Non-Interactive Mode:
 
+```
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
 $
@@ -91,3 +94,4 @@ $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
+```
