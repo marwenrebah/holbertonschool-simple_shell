@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shell Project</title>
+</head>
 <h1 align="center">Simple Shell Project</h1>
 
 <p align="center"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f/" alt="Shell Project Screenshot"/> </p>
@@ -133,4 +140,6 @@ $
     📧 Email: 6863@holbertonstudents.com<br>
     👻 Github: <a href="https://github.com/marwenrebah" target="_blank" rel="noreferrer">https://github.com/marwenrebah</a></p>
 <h2 align="center">Resources:</h2>
-<p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell/" target="_blank" rel="noreferrer"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/33977ca1-5729-4e15-9ca3-f82bf8946aa1" alt="Unix" width="40" height="40"/> </a> </p>
+    <p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/33977ca1-5729-4e15-9ca3-f82bf8946aa1" alt="Unix" width="40" height="40"/> </a> </p>
+</body>
+</html>
