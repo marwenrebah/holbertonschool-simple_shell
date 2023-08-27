@@ -78,7 +78,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 Testing:
 
-Interactive Mode:
+❕ Interactive Mode:
 ```
 $ ./hsh
 ($) /bin/ls
@@ -88,7 +88,7 @@ hsh main.c shell.c
 $
 ```
 
-Non-Interactive Mode:
+❔ Non-Interactive Mode:
 
 ```
 $ echo "/bin/ls" | ./hsh
