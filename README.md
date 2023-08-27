@@ -11,14 +11,15 @@
 4-Repeat and Prompt: Post-execution, the shell reverts to its receptive state, displaying the prompt anew. This seamless flow enables uninterrupted command submission.<br>
 
 <h1>🛠️ Simple Shell:</h1>
-Prompts appear after each command execution.
-Displays a prompt, awaiting user commands.
-Typing "EXIT" terminates the shell and interface.
-Prints current environment on "ENV" command.
-Executes common shell commands: ls, pwd, cd, exit, env.
-Program stops via CTRL + D shortcut.
+Prompts appear after each command execution.<br>
+Displays a prompt, awaiting user commands.<br>
+Typing "EXIT" terminates the shell and interface.<br>
+Prints current environment on "ENV" command.<br>
+Executes common shell commands: ls, pwd, cd, exit, env.<br>
+Program stops via CTRL + D shortcut.<br>
 
 <h1>🗂️ Files:</h1>
+
 | Files      | Description |
 | ----------- | ----------- |
 | main_simple.c      | The main function of the program.     |
