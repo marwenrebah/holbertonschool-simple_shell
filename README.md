@@ -141,7 +141,7 @@ $
     </p>
 <h2 align="center">Ken Thompson:</h2>
 <p align="center"> 
-        Learn About Ken Thompson <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">here</a>
+        <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">Learn About Ken Thompson </a>
     </p>
 
 <p align="center"> 
