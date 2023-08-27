@@ -1,4 +1,5 @@
 <h1 align="center">Hi 👨🏻‍💻, I'm Marwen Rebah</h1>
+<h1 align="center">Simple Shell Project</h1>
 
 <p align="center"> <img src=https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f/> </p>
 
