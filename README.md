@@ -133,6 +133,10 @@ $
     📧 Email: 6863@holbertonstudents.com<br>
     👻 Github: <a href="https://github.com/marwenrebah" target="_blank" rel="noreferrer">https://github.com/marwenrebah</a></p>
 <h2 align="center">Resources:</h2>
-    <p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/33977ca1-5729-4e15-9ca3-f82bf8946aa1" alt="Unix" width="40" height="40"/> </a> </p>
+    <p align="center"> 
+        <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">
+            <img src="https://icons8.com/icons/set/unix-shell" alt="Unix Shell" width="40" height="40"/> 
+        </a> 
+    </p>
 </body>
 </html>
