@@ -31,6 +31,7 @@ Program stops via CTRL + D shortcut.<br>
 | execute.c  | A function that executes a command line.        |
 
 <h1>✔️ Allowed Functions and System Calls:</h1>
+
 ```
 * access (man 2 access)
 * chdir (man 2 chdir)
@@ -64,6 +65,7 @@ Program stops via CTRL + D shortcut.<br>
 * wait4 (man 2 wait4)
 * write (man 2 write)
 ```
+
 <h1>🔭 Compilation and Testing::</h1>
 Use our compiler to build the shell:
 
