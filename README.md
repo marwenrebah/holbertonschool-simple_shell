@@ -1,6 +1,6 @@
 <h1 align="center">Simple Shell Project</h1>
 
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/2557px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/" alt="Shell Project Screenshot"/> </p>
+<p align="center"> <img src="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900/" alt="Shell Project"/> </p>
 
 <h1>📋 Description:</h1>
 <p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
@@ -139,10 +139,8 @@ $
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="Unix Shell" width="40" height="40"/> 
         </a> 
     </p>
-<h2 align="center">Ken Thompson:</h2>
+<h2 align="center"><a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="noreferrer">Ken Thompson</a></h2>
 <p align="center"> 
-        <a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="noreferrer">Learn About Ken Thompson </a>
-    </p>
-
+ 
 </body>
 </html>
