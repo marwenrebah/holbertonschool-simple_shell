@@ -1,11 +1,11 @@
-    <h1 align="center">Simple Shell Project</h1>
+<h1 align="center">Simple Shell Project</h1>
 
-    <p align="center"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f/" alt="Shell Project Screenshot"/> </p>
+<p align="center"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f/" alt="Shell Project Screenshot"/> </p>
 
-    <h1>📋 Description:</h1>
-    <p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
+<h1>📋 Description:</h1>
+<p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
 
-    <h1>⚙️ Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
+ <h1>⚙️ Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
     <ol>
         <li><strong>Print Prompt:</strong> Initiates by showcasing a user-friendly prompt, beckoning for commands and initiating interaction with the system.</li>
         <li><strong>Read and Parse:</strong> The shell captures user input, meticulously dissects it, and interprets command elements to comprehend its intent.</li>
@@ -13,7 +13,7 @@
         <li><strong>Repeat and Prompt:</strong> After execution, the shell smoothly transitions back to its receptive stance, promptly displaying the prompt once more. This unbroken cycle ensures continuous, hassle-free command submission.</li>
     </ol>
 
-    <h1>🛠️ Simple Shell:</h1>
+<h1>🛠️ Simple Shell:</h1>
     <ul>
         <li>Prompts appear after each command execution.</li>
         <li>Displays a prompt, awaiting user commands.</li>
@@ -23,7 +23,7 @@
         <li>Program stops via CTRL + D shortcut.</li>
     </ul>
 
-    <h1>🗂️ Files:</h1>
+ <h1>🗂️ Files:</h1>
     <table>
         <tr>
             <th>Files</th>
@@ -59,7 +59,7 @@
         </tr>
     </table>
 
-    <h1>✔️ Allowed Functions and System Calls:</h1>
+<h1>✔️ Allowed Functions and System Calls:</h1>
     <pre>
         * access (man 2 access)
         * chdir (man 2 chdir)
@@ -94,29 +94,29 @@
         * write (man 2 write)
     </pre>
 
-    <h1>🔭 Compilation and Testing:</h1>
+ <h1>🔭 Compilation and Testing:</h1>
     <p>Use our compiler to build the shell:</p>
 
-    <pre>
+ <pre>
         gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
     </pre>
 
-    <p>Testing:</p>
+  <p>Testing:</p>
 
-    <p>Interactive Mode:</p>
+ <p>Interactive Mode:</p>
 
-    <pre>
+ <pre>
         $ ./hsh
         ($) /bin/ls
         hsh main.c shell.c
         ($)
         ($) exit
         $
-    </pre>
+ </pre>
 
-    <p>Non-Interactive Mode:</p>
+ <p>Non-Interactive Mode:</p>
 
-    <pre>
+  <pre>
         $ echo "/bin/ls" | ./hsh
         hsh main.c shell.c test_ls_2
         $
@@ -130,7 +130,7 @@
         $
     </pre>
 
-    <h1>License 👥</h1>
+ <h1>License 👥</h1>
     <p>Authors :</p>
     <p>🚀 Marwen Rebah<br>
     📧 Email: 6863@holbertonstudents.com<br>
