@@ -105,30 +105,30 @@
 
  <p>Interactive Mode:</p>
 
- <pre>
-        $ ./hsh
-        ($) /bin/ls
-        hsh main.c shell.c
-        ($)
-        ($) exit
-        $
+<pre>
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
  </pre>
 
  <p>Non-Interactive Mode:</p>
 
-  <pre>
-        $ echo "/bin/ls" | ./hsh
-        hsh main.c shell.c test_ls_2
-        $
-        $ cat test_ls_2
-        /bin/ls
-        /bin/ls
-        $
-        $ cat test_ls_2 | ./hsh
-        hsh main.c shell.c test_ls_2
-        hsh main.c shell.c test_ls_2
-        $
-    </pre>
+<pre>
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+</pre>
 
  <h1>License 👥</h1>
     <p>Authors :</p>
@@ -136,7 +136,7 @@
     📧 Email: 6863@holbertonstudents.com<br>
     👻 Github: <a href="https://github.com/marwenrebah" target="_blank" rel="noreferrer">https://github.com/marwenrebah</a></p>
 
-    <h2 align="center">Resources:</h2>
+ <h2 align="center">Resources:</h2>
     <p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell/" target="_blank" rel="noreferrer"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/33977ca1-5729-4e15-9ca3-f82bf8946aa1" alt="Unix" width="40" height="40"/> </a> </p>
 </body>
 </html>
