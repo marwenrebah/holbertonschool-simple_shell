@@ -141,7 +141,7 @@ $
 <h2 align="center">Ken Thompson:</h2>
 <p align="center"> 
         <a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="noreferrer">
-            <img src="https://cdn.facesofopensource.com/wp-content/uploads/2022/05/10133823/KenThompson20516-1.web_-scaled.jpg" alt="Ken Thompson" width="40" height="40"/> 
+            <img src="https://cdn.facesofopensource.com/wp-content/uploads/2022/05/10133823/KenThompson20516-1.web_-scaled.jpg"/> 
         </a> 
 </body>
 </html>
