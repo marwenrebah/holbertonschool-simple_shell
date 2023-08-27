@@ -104,3 +104,5 @@ hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
 ```
+<h2 align="center">Resources:</h2>
+<p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer"> <img src="https://www.cleanpng.com/png-computer-icons-computer-terminal-cmd-exe-command-t-1286500/" alt="c" width="40" height="40"/> </a> </p>
