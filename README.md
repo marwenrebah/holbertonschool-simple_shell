@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Shell Project</title>
-</head>
 <h1 align="center">Simple Shell Project</h1>
 
 <p align="center"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f/" alt="Shell Project Screenshot"/> </p>
