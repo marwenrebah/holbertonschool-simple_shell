@@ -5,10 +5,12 @@
 <p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
 
 <h1>⚙️ Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
-1- Print Prompt: The cycle begins by displaying a user-friendly prompt, prompting command input and initiating system interaction.<br>
-2-Read and Parse: The shell reads user input, then meticulously analyzes and interprets command components to grasp its intention.<br>
-3-Execute: Guided by clarity, the shell executes the parsed command, instructing the system, effecting actions, and potentially invoking external processes.<br>
-4-Repeat and Prompt: Post-execution, the shell reverts to its receptive state, displaying the prompt anew. This seamless flow enables uninterrupted command submission.<br>
+    <ol>
+        <li><strong>Print Prompt:</strong> <em>Initiates</em> by showcasing a user-friendly prompt, beckoning for commands and initiating interaction with the system.</li>
+        <li><strong>Read and Parse:</strong> The shell captures user input, meticulously dissects it, and interprets command elements to comprehend its intent.</li>
+        <li><strong>Execute:</strong> With clear insight, the shell enacts the parsed command, issuing instructions to the system, executing actions, and potentially invoking external processes.</li>
+        <li><strong>Repeat and Prompt:</strong> After execution, the shell smoothly transitions back to its receptive stance, promptly displaying the prompt once more. This unbroken cycle ensures continuous, hassle-free command submission.</li>
+    </ol>
 
 <h1>🛠️ Simple Shell:</h1>
 Prompts appear after each command execution.<br>
