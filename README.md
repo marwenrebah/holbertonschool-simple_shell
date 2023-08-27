@@ -135,7 +135,7 @@ $
 <h2 align="center">Resources:</h2>
     <p align="center"> 
         <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">
-            <img src="https://icons8.com/icons/set/unix-shell" alt="Unix Shell" width="40" height="40"/> 
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bash_Logo_black_and_white_icon_only.svg/1792px-Bash_Logo_black_and_white_icon_only.svg.png" alt="Unix Shell" width="40" height="40"/> 
         </a> 
     </p>
 </body>
