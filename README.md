@@ -1,6 +1,6 @@
-<h1 align="center">Simple Shell Project</h1>
-<p>&nbsp;___| _) | ___| | | | _ \ _) | <br />\___ \ | __ `__ \ __ \ | _ \ \___ \ __ \ _ \ | | | | __| _ \ | _ \ __| __| <br />| | | | | | | | __/ | | | | __/ | | ___/ | ( | | __/ ( | <br />_____/ _| _| _| _| .__/ _| \___| _____/ _| |_| \___| _| _| _| _| \___/ | \___| \___| \__| <br />_| _/ </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/-Simple%20Shell%20Project-blue?style=for-the-badge&logo=appveyor" alt="Simple Shell Project Badge"/>
+</p>
 <p align="center"> <a href="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" target="_blank" rel="noreferrer"> <img src="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" alt="Shell Project"/> </a> </p>
 
 <h1>📋 Description:</h1>
