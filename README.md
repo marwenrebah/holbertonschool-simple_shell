@@ -1,7 +1,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/-Simple%20Shell%20Project-blue?style=for-the-badge&logo=appveyor" alt="Simple Shell Project Badge"/>
 </p>
-
+/ | ___ ___ __ | | __ | | | | ___ __
+| | _ / _ \ / _ \ / | '_ \ / _ | __/ | ' \ / _ / _
+| || | () | () | (| | | | | (| | || (| | | | / /
+__|_/ _/ _, || ||_,|__|| ||_|_|
+|___/
 
 <p align="center"> <a href="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" target="_blank" rel="noreferrer"> <img src="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" alt="Shell Project"/> </a> </p>
 
