@@ -1,8 +1,8 @@
-<h1 align="center">Hi 👨🏻‍💻, I'm Marwen Rebah</h1>
+<h1 align="center">👨🏻‍💻 Simple Shell Project</h1>
 
 <p align="center"> <img src=https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f/> </p>
 
-<h2 align="center">Simple Shell Project</h2>
+<h1 align="center">Simple Shell Project</h1>
 <h1>📋 Description:</h1>
 <p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
 
@@ -105,5 +105,11 @@ hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
 ```
+<h1>License 👥</h1>
+Authors :
+🚀 Marwen Rebah
+📧 Email: 6863@holbertonstudents.com
+👻 Github: https://github.com/marwenrebah
+
 <h2 align="center">Resources:</h2>
 <p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer"> <img src="https://icons8.com/icon/10250/console" alt="Unix" width="40" height="40"/> </a> </p>
