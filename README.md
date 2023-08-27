@@ -1,4 +1,4 @@
-<h1 align="center"><strong>Simple Shell Project</strong></h1>
+<h1 align="center"><strong><em>Simple Shell Project</em></strong></h1>
 <p align="center"> <a href="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" target="_blank" rel="noreferrer"> <img src="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" alt="Shell Project"/> </a> </p>
 
 <h1>📋 Description:</h1>
