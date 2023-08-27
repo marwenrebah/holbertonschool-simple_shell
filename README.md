@@ -132,6 +132,7 @@ $
     <p>🚀 Marwen Rebah<br>
     📧 Email: 6863@holbertonstudents.com<br>
     👻 Github: <a href="https://github.com/marwenrebah" target="_blank" rel="noreferrer">https://github.com/marwenrebah</a></p>
+
 <h2 align="center">Resources:</h2>
     <p align="center"> 
         <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">
@@ -139,9 +140,9 @@ $
         </a> 
     </p>
 <h2 align="center">Ken Thompson:</h2>
-<p>Learn About Ken Thompson</p>
+<p align="center">Learn About Ken Thompson <a href="https://en.wikipedia.org/wiki/Ken_Thompson"> </p>
+
 <p align="center"> 
-        <a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank" rel="noreferrer">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/2557px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg" alt="Ken Thompson" width="800" height="600"/> 
         </a> 
 </body>
