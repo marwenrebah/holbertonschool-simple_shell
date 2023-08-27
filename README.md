@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👨🏻‍💻, I'm Marwen Rebah</h1>
 
-![giphy](https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f)
+<h1 align="center">![giphy](https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/1eff87de-2116-4a56-8fab-8e21a1f6880f)</h1>
 
 <h1>📋 Description:</h1>
 <p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
