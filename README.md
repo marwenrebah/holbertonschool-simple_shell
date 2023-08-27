@@ -61,50 +61,46 @@
 
 <h1>✔️ Allowed Functions and System Calls:</h1>
     <pre>
-        * access (man 2 access)
-        * chdir (man 2 chdir)
-        * close (man 2 close)
-        * closedir (man 3 closedir)
-        * execve (man 2 execve)
-        * exit (man 3 exit)
-        * _exit (man 2 _exit)
-        * fflush (man 3 fflush)
-        * fork (man 2 fork)
-        * free (man 3 free)
-        * getcwd (man 3 getcwd)
-        * getline (man 3 getline)
-        * getpid (man 2 getpid)
-        * isatty (man 3 isatty)
-        * kill (man 2 kill)
-        * malloc (man 3 malloc)
-        * open (man 2 open)
-        * opendir (man 3 opendir)
-        * perror (man 3 perror)
-        * read (man 2 read)
-        * readdir (man 3 readdir)
-        * signal (man 2 signal)
-        * stat (__xstat) (man 2 stat)
-        * lstat (__lxstat) (man 2 lstat)
-        * fstat (__fxstat) (man 2 fstat)
-        * strtok (man 3 strtok)
-        * wait (man 2 wait)
-        * waitpid (man 2 waitpid)
-        * wait3 (man 2 wait3)
-        * wait4 (man 2 wait4)
-        * write (man 2 write)
+    * access (man 2 access)
+    * chdir (man 2 chdir)
+    * close (man 2 close)
+    * closedir (man 3 closedir)
+    * execve (man 2 execve)
+    * exit (man 3 exit)
+    * _exit (man 2 _exit)
+    * fflush (man 3 fflush)
+    * fork (man 2 fork)
+    * free (man 3 free)
+    * getcwd (man 3 getcwd)
+    * getline (man 3 getline)
+    * getpid (man 2 getpid)
+    * isatty (man 3 isatty)
+    * kill (man 2 kill)
+    * malloc (man 3 malloc)
+    * open (man 2 open)
+    * opendir (man 3 opendir)
+    * perror (man 3 perror)
+    * read (man 2 read)
+    * readdir (man 3 readdir)
+    * signal (man 2 signal)
+    * stat (__xstat) (man 2 stat)
+    * lstat (__lxstat) (man 2 lstat)
+    * fstat (__fxstat) (man 2 fstat)
+    * strtok (man 3 strtok)
+    * wait (man 2 wait)
+    * waitpid (man 2 waitpid)
+    * wait3 (man 2 wait3)
+    * wait4 (man 2 wait4)
+    * write (man 2 write)
     </pre>
 
- <h1>🔭 Compilation and Testing:</h1>
-    <p>Use our compiler to build the shell:</p>
-
- <pre>
-        gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-    </pre>
-
-  <p>Testing:</p>
-
+<h1>🔭 Compilation and Testing:</h1>
+<p>Use our compiler to build the shell:</p>
+<pre>
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+</pre>
+<p>Testing:</p>
  <p>Interactive Mode:</p>
-
 <pre>
 $ ./hsh
 ($) /bin/ls
@@ -112,10 +108,8 @@ hsh main.c shell.c
 ($)
 ($) exit
 $
- </pre>
-
- <p>Non-Interactive Mode:</p>
-
+</pre>
+<p>Non-Interactive Mode:</p>
 <pre>
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
@@ -129,14 +123,12 @@ hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
 </pre>
-
- <h1>License 👥</h1>
+<h1>License 👥</h1>
     <p>Authors :</p>
     <p>🚀 Marwen Rebah<br>
     📧 Email: 6863@holbertonstudents.com<br>
     👻 Github: <a href="https://github.com/marwenrebah" target="_blank" rel="noreferrer">https://github.com/marwenrebah</a></p>
-
- <h2 align="center">Resources:</h2>
-    <p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell/" target="_blank" rel="noreferrer"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/33977ca1-5729-4e15-9ca3-f82bf8946aa1" alt="Unix" width="40" height="40"/> </a> </p>
+<h2 align="center">Resources:</h2>
+<p align="center"> <a href="https://en.wikipedia.org/wiki/Unix_shell/" target="_blank" rel="noreferrer"> <img src="https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/33977ca1-5729-4e15-9ca3-f82bf8946aa1" alt="Unix" width="40" height="40"/> </a> </p>
 </body>
 </html>
