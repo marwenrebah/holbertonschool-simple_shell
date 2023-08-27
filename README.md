@@ -2,7 +2,6 @@
   <img src="https://img.shields.io/badge/-Simple%20Shell%20Project-blue?style=for-the-badge&logo=appveyor" alt="Simple Shell Project Badge"/>
 </p>
 
-<h1 align="center">Simple Shell Project</h1>
 
 <p align="center"> <a href="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" target="_blank" rel="noreferrer"> <img src="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" alt="Shell Project"/> </a> </p>
 
