@@ -6,20 +6,21 @@
 
 <h1>⚙️ Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
     <ol>
-        <li><strong>Print Prompt:</strong> <em>Initiates</em> by showcasing a user-friendly prompt, beckoning for commands and initiating interaction with the system.</li>
+        <li><strong>Print Prompt:</strong> Initiates by showcasing a user-friendly prompt, beckoning for commands and initiating interaction with the system.</li>
         <li><strong>Read and Parse:</strong> The shell captures user input, meticulously dissects it, and interprets command elements to comprehend its intent.</li>
         <li><strong>Execute:</strong> With clear insight, the shell enacts the parsed command, issuing instructions to the system, executing actions, and potentially invoking external processes.</li>
         <li><strong>Repeat and Prompt:</strong> After execution, the shell smoothly transitions back to its receptive stance, promptly displaying the prompt once more. This unbroken cycle ensures continuous, hassle-free command submission.</li>
     </ol>
 
 <h1>🛠️ Simple Shell:</h1>
-Prompts appear after each command execution.<br>
-Displays a prompt, awaiting user commands.<br>
-Typing "EXIT" terminates the shell and interface.<br>
-Prints current environment on "ENV" command.<br>
-Executes common shell commands: ls, pwd, cd, exit, env.<br>
-Program stops via CTRL + D shortcut.<br>
-
+<ul>
+        <li>Prompts appear after each command execution.</li>
+        <li>Displays a prompt, awaiting user commands.</li>
+        <li>Typing "EXIT" terminates the shell and interface.</li>
+        <li>Prints current environment on "ENV" command.</li>
+        <li>Executes common shell commands: ls, pwd, cd, exit, env.</li>
+        <li>Program stops via CTRL + D shortcut.</li>
+    </ul>
 <h1>🗂️ Files:</h1>
 
 | Files      | Description |
