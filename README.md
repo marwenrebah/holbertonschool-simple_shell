@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👨🏻‍💻, I'm Marwen Rebah</h1>
-![1_2_6hIEbHD47urw5OcIaUFg](https://github.com/marwenrebah/holbertonschool-simple_shell/assets/133456502/3eeacd93-3369-41a2-b5b3-849c11e54f0c)
 📋 Simple Shell Description:
 
 The Simple Shell is an intuitive and efficient command-line interface (CLI) program designed to facilitate interaction between users and computer operating systems. By providing a streamlined way to input and execute commands, the Simple Shell serves as a bridge between users' intentions and the underlying system processes.
