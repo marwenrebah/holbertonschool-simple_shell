@@ -135,7 +135,7 @@ $
 <h2 align="center">Resources:</h2>
     <p align="center"> 
         <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/49/49360.png" alt="Unix Shell" width="40" height="40"/> 
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="Unix Shell" width="40" height="40"/> 
         </a> 
     </p>
 </body>
