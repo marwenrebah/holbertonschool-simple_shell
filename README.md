@@ -1,142 +1,103 @@
-<h1 align="center"><strong>Simple Shell Project</strong></h1>
-<p align="center"> <a href="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" target="_blank" rel="noreferrer"> <img src="https://pbs.twimg.com/card_img/1694255624652017664/N3NI_c0E?format=jpg&name=900x900" alt="Shell Project"/> </a> </p>
+```markdown```
 
-<h1>📋 Description:</h1>
-<p>The Simple Shell is a command-line interface (CLI) program designed to receive commands from the keyboard and then direct them to the operating system for execution.</p>
+![Simple Shell](https://pbs.twimg.com/media/C93xIaaUwAAAM99.jpg)
 
- <h1>⚙️ Core Loop of a Shell: Read-Evaluate-Print Loop:</h1>
-    <ol>
-        <li><strong>Print Prompt:</strong> Initiates by showcasing a user-friendly prompt, beckoning for commands and initiating interaction with the system.</li>
-        <li><strong>Read and Parse:</strong> The shell captures user input, meticulously dissects it, and interprets command elements to comprehend its intent.</li>
-        <li><strong>Execute:</strong> With clear insight, the shell enacts the parsed command, issuing instructions to the system, executing actions, and potentially invoking external processes.</li>
-        <li><strong>Repeat and Prompt:</strong> After execution, the shell smoothly transitions back to its receptive stance, promptly displaying the prompt once more. This unbroken cycle ensures continuous, hassle-free command submission.</li>
-    </ol>
+# :octocat: Simple Shell Project
 
-<h1>🛠️ Simple Shell:</h1>
-    <ul>
-        <li>Prompts appear after each command execution.</li>
-        <li>Displays a prompt, awaiting user commands.</li>
-        <li>Typing "EXIT" terminates the shell and interface.</li>
-        <li>Prints current environment on "ENV" command.</li>
-        <li>Executes common shell commands: ls, pwd, cd, exit, env.</li>
-        <li>Program stops via CTRL + D shortcut.</li>
-    </ul>
+This is a basic implementation of a UNIX command line interpreter (shell). The shell provides a limited set of features, including command execution, environment variable display, and more. It is designed to be simple and educational rather than a fully-featured shell.
 
- <h1>🗂️ Files:</h1>
-    <table>
-        <tr>
-            <th>Files</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>main_simple.c</td>
-            <td>The main function of the program.</td>
-        </tr>
-        <tr>
-            <td>split.c</td>
-            <td>A function responsible for parsing or splitting a line.</td>
-        </tr>
-        <tr>
-            <td>print_env.c</td>
-            <td>A function to print the environment.</td>
-        </tr>
-        <tr>
-            <td>shell.h</td>
-            <td>Header files for the whole project.</td>
-        </tr>
-        <tr>
-            <td>get_path.c</td>
-            <td>A function that returns the path of a command line.</td>
-        </tr>
-        <tr>
-            <td>AUTHORS</td>
-            <td>List of authors of the program.</td>
-        </tr>
-        <tr>
-            <td>execute.c</td>
-            <td>A function that executes a command line.</td>
-        </tr>
-    </table>
+## :rocket: Features
 
-<h1>✔️ Allowed Functions and System Calls:</h1>
-    <pre>
-    * access (man 2 access)
-    * chdir (man 2 chdir)
-    * close (man 2 close)
-    * closedir (man 3 closedir)
-    * execve (man 2 execve)
-    * exit (man 3 exit)
-    * _exit (man 2 _exit)
-    * fflush (man 3 fflush)
-    * fork (man 2 fork)
-    * free (man 3 free)
-    * getcwd (man 3 getcwd)
-    * getline (man 3 getline)
-    * getpid (man 2 getpid)
-    * isatty (man 3 isatty)
-    * kill (man 2 kill)
-    * malloc (man 3 malloc)
-    * open (man 2 open)
-    * opendir (man 3 opendir)
-    * perror (man 3 perror)
-    * read (man 2 read)
-    * readdir (man 3 readdir)
-    * signal (man 2 signal)
-    * stat (__xstat) (man 2 stat)
-    * lstat (__lxstat) (man 2 lstat)
-    * fstat (__fxstat) (man 2 fstat)
-    * strtok (man 3 strtok)
-    * wait (man 2 wait)
-    * waitpid (man 2 waitpid)
-    * wait3 (man 2 wait3)
-    * wait4 (man 2 wait4)
-    * write (man 2 write)
-    </pre>
+- Display a prompt and wait for user input.
+- Execute commands with or without arguments.
+- Display prompt after executing each command.
+- Handle built-in commands: `exit` and `env`.
+- Handle the "end of file" condition (Ctrl+D).
+- Basic PATH handling to locate executables.
+- Free allocated memory to avoid memory leaks.
 
-<h1>🔭 Compilation and Testing:</h1>
-<p>Use our compiler to build the shell:</p>
-<pre>
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-</pre>
+## :computer: Getting Started
 
-<p>Testing:</p>
-<p>❗Interactive Mode:</p>
+To compile and run the simple shell, follow these steps:
 
-<pre>
-$ ./hsh
-($) /bin/ls
-hsh main.c shell.c
-($)
-($) exit
-$
-</pre>
+1. Open your terminal.
+2. Navigate to the directory containing the project files.
+3. Compile the source files using the provided compilation command:
 
-<p>❓ Non-Interactive Mode:</p>
+   ```bash
+   gcc -Wall -Werror -Wextra -pedantic -o simple_shell main_simple_shell.c str_split.c print_environment.c exec_command.c get_path.c free_memory.c
+   ```
 
-<pre>
-$ echo "/bin/ls" | ./hsh
-hsh main.c shell.c test_ls_2
-$
-$ cat test_ls_2
-/bin/ls
-/bin/ls
-$
-$ cat test_ls_2 | ./hsh
-hsh main.c shell.c test_ls_2
-hsh main.c shell.c test_ls_2
-$
-</pre>
-<h1>License 👥</h1>
-    <p>Authors :</p>
-    <p>🚀 Marwen Rebah<br>
-    📧 Email: 6863@holbertonstudents.com<br>
-    👻 Github: <a href="https://github.com/marwenrebah" target="_blank" rel="noreferrer">https://github.com/marwenrebah</a></p>
+4. Run the compiled executable:
 
-<h2 align="center">Resources:</h2>
-    <p align="center"> 
-        <a href="https://en.wikipedia.org/wiki/Unix_shell" target="_blank" rel="noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="Unix Shell" width="40" height="40"/> 
-        </a> 
-    </p>
-</body>
-</html>
+   ```bash
+   ./simple_shell
+   ```
+
+5. The shell will display a prompt (#cisfun$) where you can enter commands. Type `exit` to exit the shell.
+
+## :clipboard: Usage
+
+- Enter single-word commands to execute programs.
+- Use the `env` command to display environment variables.
+- Use the `exit` command to exit the shell.
+
+## :warning: Limitations
+
+- This shell is a basic implementation and may not handle all advanced features of a standard Unix shell.
+- The shell doesn't handle special characters, quotes, redirection, pipes, or other advanced features.
+- The code lacks advanced security features and input validation, so use it for educational purposes only.
+
+### ✅ List of Allowed Functions and System Calls
+
+- All functions from `string.h`
+- `access` (man 2 access)
+- `chdir` (man 2 chdir)
+- `close` (man 2 close)
+- `closedir` (man 3 closedir)
+- `execve` (man 2 execve)
+- `exit` (man 3 exit)
+- `_exit` (man 2 _exit)
+- `fflush` (man 3 fflush)
+- `fork` (man 2 fork)
+- `free` (man 3 free)
+- `getcwd` (man 3 getcwd)
+- `getline` (man 3 getline)
+- `getpid` (man 2 getpid)
+- `isatty` (man 3 isatty)
+- `kill` (man 2 kill)
+- `malloc` (man 3 malloc)
+- `open` (man 2 open)
+- `opendir` (man 3 opendir)
+- `perror` (man 3 perror)
+- `printf` (man 3 printf)
+- `fprintf` (man 3 fprintf)
+- `vfprintf` (man 3 vfprintf)
+- `sprintf` (man 3 sprintf)
+- `putchar` (man 3 putchar)
+- `read` (man 2 read)
+- `readdir` (man 3 readdir)
+- `signal` (man 2 signal)
+- `stat` (__xstat) (man 2 stat)
+- `lstat` (__lxstat) (man 2 lstat)
+- `fstat` (__fxstat) (man 2 fstat)
+- `strtok` (man 3 strtok)
+- `wait` (man 2 wait)
+- `waitpid` (man 2 waitpid)
+- `wait3` (man 2 wait3)
+- `wait4` (man 2 wait4)
+- `write` (man 2 write)
+
+## :heart: Acknowledgments
+
+This project was inspired by the need to understand the fundamentals of a Unix shell and its core functionalities.
+
+- [Learn more about Unix Shell](https://en.m.wikipedia.org/wiki/Unix_shell) [:book:](https://en.m.wikipedia.org/wiki/Unix_shell)
+- [Learn more about Ken Thompson](https://en.m.wikipedia.org/wiki/Ken_Thompson) [:man_technologist:](https://en.m.wikipedia.org/wiki/Ken_Thompson)
+
+# License 👥
+
+Authors :
+🚀 Marwen Rebah<br>
+📧 Email: 6863@holbertonstudents.com<br>
+👻 Github: [https://github.com/marwenrebah](https://github.com/marwenrebah)<br>
