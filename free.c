@@ -6,8 +6,9 @@
  */
 void free_d_p(char **p)
 {
-    int i;
-    for (i = 0; p[i] != NULL; i++)
-        free(p[i]);
-    free(p);
+	int i;
+
+	for (i = 0; p[i] != NULL; i++)
+		free(p[i]);
+	free(p);
 }
