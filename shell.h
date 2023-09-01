@@ -10,7 +10,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#define TOK_DELIM " \t\n" /*Delimiter used for tokenizing input*/ 
+#define TOK_DELIM " \t\n" /*Delimiter used for tokenizing input*/
 #define SIZE 64
 
 extern char **environ;
