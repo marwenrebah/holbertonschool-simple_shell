@@ -25,13 +25,13 @@ To compile and run the simple shell, follow these steps:
 3. Compile the source files using the provided compilation command:
 
    ```bash
-   gcc -Wall -Werror -Wextra -pedantic -o simple_shell main_simple_shell.c str_split.c print_environment.c exec_command.c get_path.c free_memory.c
+   gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
    ```
 
 4. Run the compiled executable:
 
    ```bash
-   ./simple_shell
+   ./hsh
    ```
 
 5. The shell will display a prompt (#cisfun$) where you can enter commands. Type `exit` to exit the shell.
